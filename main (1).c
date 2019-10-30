@@ -17,6 +17,12 @@ main ()
     {
       printf ("%d\n", i);
     }
+  printf ("printing numbers backwards\n");
+  while (n >= 1)
+    {
+      printf ("%d\n", n);
+      n--;
+    }
 
   return 0;
 }
